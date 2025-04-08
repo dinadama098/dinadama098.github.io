@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FilmeXpress</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00d8ff;
+    }
+    .films {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .film {
+      background-color: #222;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+    }
+    .film img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .button {
+      margin-top: 10px;
+      background-color: #00d8ff;
+      border: none;
+      color: black;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background-color: #00aacc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur FilmeXpress</h1>
+  <p>Regarde et achète des films en toute simplicité.</p>
+
+  <h2>Nos Films</h2>
+  <div class="films">
+    <div class="film">
+      <img src="film1.jpg" alt="Le Destin du Roi">
+      <h3>Le Destin du Roi</h3>
+      <p>Un film d'aventure épique au cœur du royaume.</p>
+      <p>Prix : 1000 FCFA</p>
+      <a class="button" href="https://wa.me/221706751478?text=Je%20veux%20acheter%20Le%20Destin%20du%20Roi" target="_blank">
+        Acheter avec Wave
+      </a>
+    </div>
+
+    <div class="film">
+      <img src="film2.jpg" alt="Amour Interdit">
+      <h3>Amour Interdit</h3>
+      <p>Une romance bouleversante entre deux mondes.</p>
+      <p>Prix : 1500 FCFA</p>
+      <a class="button" href="https://wa.me/221706751478?text=Je%20veux%20acheter%20Amour%20Interdit" target="_blank">
+        Acheter avec Wave
+      </a>
+    </div>
+  </div>
+</body>
+</html>
